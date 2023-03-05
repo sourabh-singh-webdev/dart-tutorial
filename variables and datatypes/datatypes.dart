@@ -28,10 +28,5 @@ void main() {
   /// 4).Lists:-- Similar to the array, or we can say collection of objects
   ///
 
-  var toppers = List.generate(3);
-  toppers[0] = 1;
-  toppers[1] = 2;
-  toppers[2] = 3;
-  toppers[3] = 4;
-  print(toppers);
+  
 }
