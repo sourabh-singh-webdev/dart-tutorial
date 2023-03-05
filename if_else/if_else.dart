@@ -1,7 +1,7 @@
 void main() {
   /// There are many ways to implement control statements in dart. These are as followings : ==
   /// 1). Using the if/else keywords:
-  int salary = 400;
+  int salary = 400; 
   if (salary > 500) {
     print('if condition is run');
   } else {
