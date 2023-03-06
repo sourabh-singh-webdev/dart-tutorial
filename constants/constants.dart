@@ -4,6 +4,9 @@ void main() {
   /// 2). using the "const" keyword: -- It preserve memory (compile time value is assigned)
   ///
   final name = 'sourabh';
+  print(name);
+
   // can not be reassigned
   const age = '20';
+  print(age);
 }
