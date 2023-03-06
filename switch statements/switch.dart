@@ -1,19 +1,17 @@
 void main() {
-
   String grade = 'a';
 
-  switch(grade) {
+  /// Note : -- In switch argument we can only pass int or String value
+  switch (grade) {
     case 'A':
-    print('good');
-    break;
+      print('good');
+      break;
 
-    case 'B': 
-    print('bad');
-    break;
+    case 'B':
+      print('bad');
+      break;
 
-    default: 
-    print('Invalid grade');
-
+    default:
+      print('Invalid grade');
   }
-
 }
