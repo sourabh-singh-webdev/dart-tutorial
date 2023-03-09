@@ -7,7 +7,7 @@ void main() {
 
 // Abstract classes can be used to hide our implemnetations
 // as well as to reuse the methods and variables
-
+// Also, you can not create objects of abstract classes 
 abstract class Shapes {
   String shape = 'circle';
   // Methods in abastract classes are ended with (;) instead
